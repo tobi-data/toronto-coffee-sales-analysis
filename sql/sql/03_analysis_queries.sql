@@ -1,6 +1,3 @@
-/* Sales for a small coffee shop chain in Toronto, Canada. The client wants to know: Total sales for the month,
-Number of orders per customer, Top-selling drink, Customer who spent the most. */
-
 --1. Total Sales
 SELECT SUM(amount) AS total_sales
 FROM orders;
